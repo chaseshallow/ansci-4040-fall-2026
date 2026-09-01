@@ -19,16 +19,16 @@
 #base function 
 def convert_milk_yield(value):
     """
-    Convert milk yield from pounds to kilograms.
+    Convert milk yield from kilograms to pounds.
 
     Input:
-        value (float): Milk yield in pounds.
+        value (float): Milk yield in kilograms.
 
     Output:
-        float: Milk yield in kilograms.
+        float: Milk yield in pounds.
     """
-    pounds_to_kilograms = 0.45359237
-    return value * pounds_to_kilograms
+    kilograms_to_pounds = 2.2046226218
+    return value * kilograms_to_pounds
 
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository. 
